@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0f1946ca78a44bd382792086b24b5de0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0f1946ca78a44bd382792086b24b5de0" ></div>
+        
+</body>
+<script>    
+    
+            var map_0f1946ca78a44bd382792086b24b5de0 = L.map(
+                "map_0f1946ca78a44bd382792086b24b5de0",
+                {
+                    center: [40.819688, -73.915091],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_659eb1c889c448668d9134aab64af062 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0f1946ca78a44bd382792086b24b5de0);
+        
+    
+            var marker_d43e7921030146e2a628fc78be04b93b = L.marker(
+                [40.819688, -73.915091],
+                {}
+            ).addTo(map_0f1946ca78a44bd382792086b24b5de0);
+        
+    
+            var icon_ddeed84565f64aa2b5d85a81df78b981 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d43e7921030146e2a628fc78be04b93b.setIcon(icon_ddeed84565f64aa2b5d85a81df78b981);
+        
+    
+        var popup_1ecfdcf530e5464c9a534cfc96fbd30c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7041f9ab1ac4e7a9a55580d59c72c1b = $(`<div id="html_c7041f9ab1ac4e7a9a55580d59c72c1b" style="width: 100.0%; height: 100.0%;">Name:424 East 155th Street NY  Latitude:40.819688</div>`)[0];
+            popup_1ecfdcf530e5464c9a534cfc96fbd30c.setContent(html_c7041f9ab1ac4e7a9a55580d59c72c1b);
+        
+
+        marker_d43e7921030146e2a628fc78be04b93b.bindPopup(popup_1ecfdcf530e5464c9a534cfc96fbd30c)
+        ;
+
+        
+    
+    
+            var marker_8a0431ac9eba4c4ba65a0440dbdb8ae5 = L.marker(
+                [40.815421, -73.941761],
+                {}
+            ).addTo(map_0f1946ca78a44bd382792086b24b5de0);
+        
+    
+            var icon_f7e68015b0a64a9a8d705e5d8caef2bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8a0431ac9eba4c4ba65a0440dbdb8ae5.setIcon(icon_f7e68015b0a64a9a8d705e5d8caef2bc);
+        
+    
+        var popup_88ec429842e34cf59c70fe1601e7a689 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e74309d9239b40ab908ae7726949e2f5 = $(`<div id="html_e74309d9239b40ab908ae7726949e2f5" style="width: 100.0%; height: 100.0%;">Name:137 West 136th Street NY  Latitude:40.815421</div>`)[0];
+            popup_88ec429842e34cf59c70fe1601e7a689.setContent(html_e74309d9239b40ab908ae7726949e2f5);
+        
+
+        marker_8a0431ac9eba4c4ba65a0440dbdb8ae5.bindPopup(popup_88ec429842e34cf59c70fe1601e7a689)
+        ;
+
+        
+    
+    
+            var marker_f4b11db7db72440387045b20837bd425 = L.marker(
+                [40.764198, -73.910785],
+                {}
+            ).addTo(map_0f1946ca78a44bd382792086b24b5de0);
+        
+    
+            var icon_c891854322364b20bf43990131ddabc0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f4b11db7db72440387045b20837bd425.setIcon(icon_c891854322364b20bf43990131ddabc0);
+        
+    
+        var popup_7bc545cd9aef4c42b5b40142b95c8660 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62a14e979cfb4ad0b04d59a6b15a4d60 = $(`<div id="html_62a14e979cfb4ad0b04d59a6b15a4d60" style="width: 100.0%; height: 100.0%;">Name:43-11 28th Avenue NY  Latitude:40.764198</div>`)[0];
+            popup_7bc545cd9aef4c42b5b40142b95c8660.setContent(html_62a14e979cfb4ad0b04d59a6b15a4d60);
+        
+
+        marker_f4b11db7db72440387045b20837bd425.bindPopup(popup_7bc545cd9aef4c42b5b40142b95c8660)
+        ;
+
+        
+    
+    
+            var marker_dc7faf6dc2204dcdb98956c8575d49da = L.marker(
+                [40.76879, -73.953285],
+                {}
+            ).addTo(map_0f1946ca78a44bd382792086b24b5de0);
+        
+    
+            var icon_1c52bb297ab9463293ae0cb681b9f826 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "stop", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_dc7faf6dc2204dcdb98956c8575d49da.setIcon(icon_1c52bb297ab9463293ae0cb681b9f826);
+        
+    
+        var popup_68abcf10a24e433184ffc1128333700b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dc4eaa59ebc41ac8d5dc524d4ddb600 = $(`<div id="html_8dc4eaa59ebc41ac8d5dc524d4ddb600" style="width: 100.0%; height: 100.0%;">Name:435 East 74th Street NY  Latitude:40.76879</div>`)[0];
+            popup_68abcf10a24e433184ffc1128333700b.setContent(html_8dc4eaa59ebc41ac8d5dc524d4ddb600);
+        
+
+        marker_dc7faf6dc2204dcdb98956c8575d49da.bindPopup(popup_68abcf10a24e433184ffc1128333700b)
+        ;
+
+        
+    
+    
+            var marker_e74b869edf5947c7b744528812b67748 = L.marker(
+                [40.734851, -73.95295],
+                {}
+            ).addTo(map_0f1946ca78a44bd382792086b24b5de0);
+        
+    
+            var icon_f278155c860a486bb19bcc66b9610612 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e74b869edf5947c7b744528812b67748.setIcon(icon_f278155c860a486bb19bcc66b9610612);
+        
+    
+        var popup_50f536df52324889af248a724e9ad1e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_869ce8fc2635424eba82232015ec3e4e = $(`<div id="html_869ce8fc2635424eba82232015ec3e4e" style="width: 100.0%; height: 100.0%;">Name:211 Freeman Street NY  Latitude:40.734851</div>`)[0];
+            popup_50f536df52324889af248a724e9ad1e8.setContent(html_869ce8fc2635424eba82232015ec3e4e);
+        
+
+        marker_e74b869edf5947c7b744528812b67748.bindPopup(popup_50f536df52324889af248a724e9ad1e8)
+        ;
+
+        
+    
+    
+            var marker_8188a3d525f240599a123570ff636b58 = L.marker(
+                [40.743613, -73.977998],
+                {}
+            ).addTo(map_0f1946ca78a44bd382792086b24b5de0);
+        
+    
+            var icon_6ed69d8242624cce8ce071331b3fd63c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8188a3d525f240599a123570ff636b58.setIcon(icon_6ed69d8242624cce8ce071331b3fd63c);
+        
+    
+        var popup_064ab9439b0443c498f77d9cddd99d60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b6b961883fb4969b124b7049ff734d8 = $(`<div id="html_8b6b961883fb4969b124b7049ff734d8" style="width: 100.0%; height: 100.0%;">Name:232 East 32nd Street NY  Latitude:40.743613</div>`)[0];
+            popup_064ab9439b0443c498f77d9cddd99d60.setContent(html_8b6b961883fb4969b124b7049ff734d8);
+        
+
+        marker_8188a3d525f240599a123570ff636b58.bindPopup(popup_064ab9439b0443c498f77d9cddd99d60)
+        ;
+
+        
+    
+    
+            var marker_ddf33f7c8808417a89d0b23ccb8c8f49 = L.marker(
+                [40.745313, -73.99379300000001],
+                {}
+            ).addTo(map_0f1946ca78a44bd382792086b24b5de0);
+        
+    
+            var icon_114676dfa78040c3943d6609c13be6b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ddf33f7c8808417a89d0b23ccb8c8f49.setIcon(icon_114676dfa78040c3943d6609c13be6b2);
+        
+    
+        var popup_7c42f5c291fe455daab67fbf7a9c008b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c683cb2c9b3e49ff92a4db71c360655f = $(`<div id="html_c683cb2c9b3e49ff92a4db71c360655f" style="width: 100.0%; height: 100.0%;">Name:159 West 25th Street NY  Latitude:40.745313</div>`)[0];
+            popup_7c42f5c291fe455daab67fbf7a9c008b.setContent(html_c683cb2c9b3e49ff92a4db71c360655f);
+        
+
+        marker_ddf33f7c8808417a89d0b23ccb8c8f49.bindPopup(popup_7c42f5c291fe455daab67fbf7a9c008b)
+        ;
+
+        
+    
+    
+            var marker_a86d95fa480148ef979d6626935dc9b6 = L.marker(
+                [40.662713000000004, -73.946101],
+                {}
+            ).addTo(map_0f1946ca78a44bd382792086b24b5de0);
+        
+    
+            var icon_adb3dd1b37e64ae98601dbbb85f989eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a86d95fa480148ef979d6626935dc9b6.setIcon(icon_adb3dd1b37e64ae98601dbbb85f989eb);
+        
+    
+        var popup_a315e8193242451c885ab00da2d55422 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91913b3835e84e7abc88097cdfa8a9a0 = $(`<div id="html_91913b3835e84e7abc88097cdfa8a9a0" style="width: 100.0%; height: 100.0%;">Name:486 Brooklyn Avenue NY  Latitude:40.662713000000004</div>`)[0];
+            popup_a315e8193242451c885ab00da2d55422.setContent(html_91913b3835e84e7abc88097cdfa8a9a0);
+        
+
+        marker_a86d95fa480148ef979d6626935dc9b6.bindPopup(popup_a315e8193242451c885ab00da2d55422)
+        ;
+
+        
+    
+    
+            var marker_f872815504d94d8dad2351d8b9cbc6c2 = L.marker(
+                [40.703761, -73.886496],
+                {}
+            ).addTo(map_0f1946ca78a44bd382792086b24b5de0);
+        
+    
+            var icon_e908ea2c6ff14f158691b81484058f7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_f872815504d94d8dad2351d8b9cbc6c2.setIcon(icon_e908ea2c6ff14f158691b81484058f7d);
+        
+    
+        var popup_2d3cc4e8983d4a30bc811ac6a827fa8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4aac430a82c84b9ab0b9f38021d5a091 = $(`<div id="html_4aac430a82c84b9ab0b9f38021d5a091" style="width: 100.0%; height: 100.0%;">Name:70-38 67th Place NY  Latitude:40.703761</div>`)[0];
+            popup_2d3cc4e8983d4a30bc811ac6a827fa8d.setContent(html_4aac430a82c84b9ab0b9f38021d5a091);
+        
+
+        marker_f872815504d94d8dad2351d8b9cbc6c2.bindPopup(popup_2d3cc4e8983d4a30bc811ac6a827fa8d)
+        ;
+
+        
+    
+    
+            var marker_ba49cef378c54518a7d28db5cb27b228 = L.marker(
+                [40.71362, -73.943076],
+                {}
+            ).addTo(map_0f1946ca78a44bd382792086b24b5de0);
+        
+    
+            var icon_5b42335293f24488a42ee00c3d223078 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ba49cef378c54518a7d28db5cb27b228.setIcon(icon_5b42335293f24488a42ee00c3d223078);
+        
+    
+        var popup_64134f2552e94941bb47aa49b2cf1a38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9b8567152f248c3b9775df1d353e3e3 = $(`<div id="html_d9b8567152f248c3b9775df1d353e3e3" style="width: 100.0%; height: 100.0%;">Name:194 Devoe Street NY  Latitude:40.71362</div>`)[0];
+            popup_64134f2552e94941bb47aa49b2cf1a38.setContent(html_d9b8567152f248c3b9775df1d353e3e3);
+        
+
+        marker_ba49cef378c54518a7d28db5cb27b228.bindPopup(popup_64134f2552e94941bb47aa49b2cf1a38)
+        ;
+
+        
+    
+    
+            var marker_9f9295913b5a404992a45ca20fa2d86d = L.marker(
+                [40.725212, -73.809179],
+                {}
+            ).addTo(map_0f1946ca78a44bd382792086b24b5de0);
+        
+    
+            var icon_4b109139d487452ca7e6c94048d595cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9f9295913b5a404992a45ca20fa2d86d.setIcon(icon_4b109139d487452ca7e6c94048d595cd);
+        
+    
+        var popup_c62998bee04145bc9d3b2cbc89614bb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56a7e5d008df4fc7ac1ac047aaaeb07d = $(`<div id="html_56a7e5d008df4fc7ac1ac047aaaeb07d" style="width: 100.0%; height: 100.0%;">Name:158-46 76th Avenue NY  Latitude:40.725212</div>`)[0];
+            popup_c62998bee04145bc9d3b2cbc89614bb9.setContent(html_56a7e5d008df4fc7ac1ac047aaaeb07d);
+        
+
+        marker_9f9295913b5a404992a45ca20fa2d86d.bindPopup(popup_c62998bee04145bc9d3b2cbc89614bb9)
+        ;
+
+        
+    
+</script>
